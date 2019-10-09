@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+}
+
+.nav-border {
+  border: solid pink 1px;
+  width: 100%;
+}
