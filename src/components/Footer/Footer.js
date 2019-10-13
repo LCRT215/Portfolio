@@ -20,6 +20,16 @@ function Footer() {
             linkedin
           </Nav.Link>
         </Nav.Item>
+
+        <Nav.Item>
+          <Nav.Link
+            href="https://docs.google.com/document/d/1f5hU9xywzNAb7RkOUUF9Kg51js1z2AvWuDLaq4tWrVE/edit?usp=sharing"
+            target="_blank"
+          >
+            resume
+          </Nav.Link>
+        </Nav.Item>
+
         <Nav.Item>
           <Nav.Link href="/contact">hire me</Nav.Link>
         </Nav.Item>
