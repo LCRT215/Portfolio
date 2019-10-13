@@ -2486,7 +2486,7 @@ cache-base@^1.0.1:
     get-value "^2.0.6"
     has-value "^1.0.0"
     isobject "^3.0.1"
-    set-value "^2.0.1"
+    set-value "^2.0.0"
     to-object-path "^0.3.0"
     union-value "^1.0.0"
     unset-value "^1.0.0"
@@ -8445,6 +8445,13 @@ react-error-overlay@^6.0.3:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.3.tgz#c378c4b0a21e88b2e159a3e62b2f531fd63bf60d"
   integrity sha512-bOUvMWFQVk5oz8Ded9Xb7WVdEi3QGLC8tH7HmYP0Fdp4Bn3qw0tRFmr5TW6mvahzvmrK4a6bqWGfCevBflP+Xw==
 
+react-icons@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-3.7.0.tgz#64fe46231fabfeea27895edeae6c3b78114b8c8f"
+  integrity sha512-7MyPwjIhuyW0D2N3s4DEd0hGPGFf0sK+IIRKhc1FvSpZNVmnUoGvHbmAwzGJU+3my+fvihVWgwU5SDtlAri56Q==
+  dependencies:
+    camelcase "^5.0.0"
+
 react-is@^16.3.2, react-is@^16.6.0, react-is@^16.7.0:
   version "16.10.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.10.2.tgz#984120fd4d16800e9a738208ab1fba422d23b5ab"
@@ -9176,14 +9183,21 @@ set-value@^0.4.3:
     to-object-path "^0.3.0"
 
 set-value@^2.0.1:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/set-value/-/set-value-2.0.0.tgz#71ae4a88f0feefbbf52d1ea604f3fb315ebb6274"
-  integrity sha512-hw0yxk9GT/Hr5yJEYnHNKYXkIA8mVJgd9ditYZCe16ZczcaELYYcfvaXesNACk2O8O0nTiPQcQhGUQj8JLzeeg==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/set-value/-/set-value-2.0.1.tgz#a18d40530e6f07de4228c7defe4227af8cad005b"
+  integrity sha512-JxHc1weCN68wRY0fhCoXpyK55m/XPHafOmK4UWD7m2CI14GMcFypt4w/0+NV5f/ZMby2F6S2wwA7fgynh9gWSw==
   dependencies:
     extend-shallow "^2.0.1"
     is-extendable "^0.1.1"
     is-plain-object "^2.0.3"
     split-string "^3.0.1"
+
+set-value@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/set-value/-/set-value-3.0.1.tgz#52c82af7653ba69eb1db92e81f5cdb32739b9e95"
+  integrity sha512-w6n3GUPYAWQj4ZyHWzD7K2FnFXHx9OTwJYbWg+6nXjG8sCLfs9DGv+KlqglKIIJx+ks7MlFuwFW2RBPb+8V+xg==
+  dependencies:
+    is-plain-object "^2.0.4"
 
 setimmediate@^1.0.4:
   version "1.0.5"

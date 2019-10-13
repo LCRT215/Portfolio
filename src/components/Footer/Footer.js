@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 import "../Footer/Footer.css";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -8,7 +9,7 @@ function Footer() {
       <Nav className="justify-content-center" activeKey="/home">
         <Nav.Item>
           <Nav.Link href="https://github.com/LCRT215" target="_blank">
-            github
+            <FaGithub />
           </Nav.Link>
         </Nav.Item>
 
@@ -17,7 +18,7 @@ function Footer() {
             href="https://www.linkedin.com/in/leslie-thompson-"
             target="_blank"
           >
-            linkedin
+            <FaLinkedin />
           </Nav.Link>
         </Nav.Item>
 
