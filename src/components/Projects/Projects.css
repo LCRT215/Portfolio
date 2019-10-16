@@ -19,6 +19,7 @@
 }
 
 .description {
+  display: flex;
   font-size: 18px;
   opacity: 0;
   transition: opacity 0.8s ease-in-out;
@@ -49,7 +50,14 @@
   right: 0;
   z-index: 1;
   top: 250px;
-  width: 40%;
+  width: 50%;
+}
+
+.description-img {
+  position: absolute;
+  right: 110px;
+  bottom: 70px;
+  transform: rotate(8deg);
 }
 
 /* PROJECT CARD PROPS  */

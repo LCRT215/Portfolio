@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Projects.css";
 
 function ProjectCard(props) {
@@ -7,9 +7,11 @@ function ProjectCard(props) {
       <div className="projects-text">
         <p className={`projects-title ${props.titleColor}`}>{props.title}</p>
 
-        <p className={`description ${props.descriptionColor}`}>
-          {props.description}
-        </p>
+        <div className={`description ${props.descriptionColor}`}>
+          <p>{props.description}</p>
+          <br />
+          <p className="description-img"> {props.img}</p>
+        </div>
       </div>
       <div className="replate-projects-card"> </div>
     </div>
