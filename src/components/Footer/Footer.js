@@ -35,6 +35,15 @@ function Footer() {
           <Nav.Link href="/contact">hire me</Nav.Link>
         </Nav.Item>
       </Nav>
+
+      <Nav.Item>
+        <Nav.Link
+          href="https://calendly.com/lesliethompson/intro-call"
+          target="_blank"
+        >
+          schedule a time to speak with me
+        </Nav.Link>
+      </Nav.Item>
     </div>
   );
 }
