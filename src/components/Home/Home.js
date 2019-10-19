@@ -8,8 +8,9 @@ function Home() {
       <p> hi from HOME</p>
 
       <p>
-        I'm a web developer based in San Francisco, California. I have a passion
-        for web design and love to create for web and mobile devices.
+        I'm a Full Stack Web Developer based in San Francisco, California. I
+        have a passion for web design and love to create for web and mobile
+        devices.
       </p>
 
       <div className="what-i-do">
@@ -17,8 +18,6 @@ function Home() {
         <p>
           I'm a developer, so I know how to create your website to run across
           devices using the latest technologies available.
-          <br />
-          list technologies and do hover animations
         </p>
       </div>
     </div>
