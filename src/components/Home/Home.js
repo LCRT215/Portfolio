@@ -8,9 +8,8 @@ function Home() {
       <p> hi from HOME</p>
 
       <p>
-        I'm a Full Stack Web Developer based in San Francisco, California. I
-        have a passion for web design and love to create for web and mobile
-        devices
+        I'm a Full Stack eb Developer based in San Francisco, California. I have
+        a passion for web design and love to create for web and mobile devices
       </p>
 
       <div className="what-i-do">
