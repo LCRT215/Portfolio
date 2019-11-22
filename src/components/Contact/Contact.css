@@ -1,0 +1,31 @@
+.contact {
+  margin: 0 auto;
+  width: 500px;
+  /* border: solid yellow 2px; */
+}
+
+.head {
+  text-align: center;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  border: solid yellow 2px;
+}
+
+.image {
+  margin-bottom: 30px;
+}
+
+.email {
+  text-decoration: none;
+  color: black;
+}
+.form-container {
+  /* text-align: center; */
+}
+.input {
+  width: 100%;
+}
+.form-text {
+  margin-bottom: -1px;
+}

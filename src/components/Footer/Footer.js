@@ -9,7 +9,7 @@ function Footer() {
       <Nav className="justify-content-center" activeKey="/home">
         <Nav.Item>
           <Nav.Link href="https://github.com/LCRT215" target="_blank">
-            <FaGithub />
+            Github
           </Nav.Link>
         </Nav.Item>
 
@@ -18,7 +18,7 @@ function Footer() {
             href="https://www.linkedin.com/in/leslie-thompson-"
             target="_blank"
           >
-            <FaLinkedin />
+            LinkedIn
           </Nav.Link>
         </Nav.Item>
 
@@ -27,23 +27,10 @@ function Footer() {
             href="https://docs.google.com/document/d/1f5hU9xywzNAb7RkOUUF9Kg51js1z2AvWuDLaq4tWrVE/edit?usp=sharing"
             target="_blank"
           >
-            resume
+            Resume
           </Nav.Link>
         </Nav.Item>
-
-        <Nav.Item>
-          <Nav.Link href="/contact">hire me</Nav.Link>
-        </Nav.Item>
       </Nav>
-
-      <Nav.Item>
-        <Nav.Link
-          href="https://calendly.com/lesliethompson/intro-call"
-          target="_blank"
-        >
-          schedule a time to speak with me
-        </Nav.Link>
-      </Nav.Item>
     </div>
   );
 }
