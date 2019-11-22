@@ -1,5 +1,6 @@
 import React from "react";
 import "../Home/Home.css";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -47,10 +48,7 @@ function Home() {
         <p>
           Take a look at some of my recent projects. If you have any questions
           or would like to chat, please feel free to{" "}
-          <a href="/contact" className="">
-            reach out to me
-          </a>
-          .
+          <Link to="/contact">reach out to me</Link>.
         </p>
       </div>
     </div>
