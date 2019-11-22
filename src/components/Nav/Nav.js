@@ -6,7 +6,11 @@ function NavBar() {
   return (
     <div className="nav-container">
       <a href="/" className="logo">
-        👩🏾‍💻
+        <img
+          width="70"
+          height="70"
+          src={require("../images/hand-raised.png")}
+        />
       </a>
       <div className="nav-link-container">
         <Link className="nav-links" to="/">

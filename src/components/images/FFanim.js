@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Lottie from "react-lottie";
-import awakeanimationData from "./ffAnim2.json";
-import sleepingAnimation from "./sleeping.json";
+import awakeanimationData from "./ffAnim2.json.js.js.js";
+import sleepingAnimation from "./sleeping.json.js.js.js";
 import styled from "styled-components";
 import { makeStyles } from "@material-ui/styles";
 import anime from "animejs";
@@ -52,15 +52,13 @@ const FFanim = ({
   const animationParameters = {
     easing: "easeInOutQuad",
     duration: 500,
-    loop: loop,
+    loop: loop
   };
 
   function parseColorCode(blocks) {
-
     let currentColor = 52;
 
     function addToAnime(array, repeat, onState) {
-
       console.log(onState);
       let isOn = onState;
 
@@ -223,10 +221,10 @@ const FFanim = ({
       } else if (block.type === "onOff") {
         //Maybe done
         if (block.value === true) {
-          console.log("turning on")
+          console.log("turning on");
           currentOnOffState = true;
         } else {
-          console.log("turning off")
+          console.log("turning off");
           currentOnOffState = false;
         }
         if (index === blocks.length - 1) {
@@ -314,10 +312,10 @@ const FFanim = ({
 
   useEffect(() => {
     if (hasLoaded) {
-    t1.play();
-    t2.play();
-    t3.play();
-    t4.play();
+      t1.play();
+      t2.play();
+      t3.play();
+      t4.play();
     }
     setHasLoaded(true);
     // eslint-disable-next-line react-hooks/exhaustive-deps
