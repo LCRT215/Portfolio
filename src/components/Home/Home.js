@@ -21,7 +21,9 @@ function Home() {
         </p>
         I am currently enrolled in Lambda School's 9-month immersive Full Stack
         Web program, learning to design programs using the industry's latest
-        technologies.
+        technologies and will shortly finish the course on Computer Science with
+        Web Development focus.
+        <br />
       </div>
       <div className="sections one">
         <h2>Languages</h2>
