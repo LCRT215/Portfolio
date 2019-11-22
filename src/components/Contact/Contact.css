@@ -3,6 +3,7 @@
   width: 500px;
   font-size: 16px;
   margin-bottom: 200px;
+  color: #6b5a5f;
 }
 
 .head {
@@ -42,7 +43,7 @@
 .link {
   position: relative;
   text-decoration: none;
-  color: lightslategray;
+  color: #f78eaa;
   cursor: pointer;
 }
 
