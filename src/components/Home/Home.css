@@ -1,3 +1,28 @@
 .home-container {
   text-align: center;
 }
+.about {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+.sections {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.one {
+  background-color: #ffcadf;
+}
+.two {
+  background-color: #f4acbf;
+}
+.three {
+  background-color: #9d8189;
+}
+.four {
+  background-color: #ffcadf;
+}

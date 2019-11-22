@@ -1,54 +1,52 @@
-import React from "react";
-import Nav from "react-bootstrap/Nav";
+import React, { useState } from "react";
 import "../Contact/Contact.css";
+import Calendly from "./Calendly.js";
+import Nav from "react-bootstrap/Nav";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-const Contact = () => (
-  <div className="contact">
-    <div className="head">
-      <img
-        className="image"
-        width="200"
-        height="200"
-        src={require("../images/crossed.png")}
-      />
+function Contact() {
+  const [pop, setPop] = useState(false);
+  const calendlyPopup = pop ? <Calendly /> : "";
 
-      <p>
-        Feel free to reach out if you have any questions, chat about
-        opportunities, or just want to say hello!Find me on social media, use
-        the form below, or email me at{" "}
-        <a href="mailto:lcrthompson@gmail.com" className="email">
-          lcrthompson@gmail.com
+  return (
+    <div className="contact">
+      <div className="head">
+        <img
+          className="image"
+          width="200"
+          height="200"
+          src={require("../images/crossed.png")}
+        />
+        <p>
+          Feel free to reach out if you have any questions, chat about
+          opportunities, or just want to say hello! Find me on social media,
+          email me at{" "}
+          <a href="mailto:lcrthompson@gmail.com" className="link">
+            lcrthompson@gmail.com
+          </a>
+          , or{" "}
+          <a onClick={() => setPop(!pop)}>
+            <nobr className="link">schedule a call with me</nobr>.
+          </a>
+        </p>
+
+        <a
+          href="https://www.linkedin.com/in/leslie-thompson-"
+          target="_blank"
+          className="linkedin"
+        >
+          {" "}
+          <FaLinkedin />
         </a>
-      </p>
-    </div>
-
-    <form method="POST" className="form-container">
-      <div className="form">
-        <p className="form-text">Name</p>
-        <input type="text" name="name" className="input" />
-        <br />
-        <br />
-        <p className="form-text">Email</p>
-        <input type="email" name="email" className="input" />
-        <br />
-        <br />
-        <p className="form-text">Message</p>
-        <textarea name="message" rows="3" className="input"></textarea>
-        <br />
-        <br />
-        <input type="submit" />
+        {"     "}
+        <a href="https://github.com/LCRT215" target="_blank" className="github">
+          <FaGithub />
+        </a>
       </div>
-    </form>
 
-    {/* <Nav.Link
-      href="https://calendly.com/lesliethompson/intro-call"
-      target="_blank"
-    >
-      Schedule a time to speak with me
-      <br />
-      ADD A CALENDAR OR CALENDLY PHOTO HERE!
-    </Nav.Link> */}
-  </div>
-);
+      {calendlyPopup}
+    </div>
+  );
+}
 
 export default Contact;
