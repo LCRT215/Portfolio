@@ -4,20 +4,29 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <div className="nav-container">
-      <p>Leslie Thompson</p>
-      <a href="/" className="logo"></a>
-      <div className="nav-link-container">
-        <Link className="nav-links" to="/">
-          about
-        </Link>
-        <Link className="nav-links" to="/projects">
-          projects
-        </Link>
-        <Link className="nav-links" to="/contact">
-          contact
-        </Link>
-      </div>
+    ///////////////////////////
+    <div class="container">
+      <ul>
+        <li>
+          <Link class="nav-link" to="/">
+            About
+          </Link>
+        </li>
+        <li class="nav-two">
+          <Link class="nav-link" to="/projects">
+            Projects
+          </Link>
+        </li>
+        <li class="nav-three">
+          <Link class="nav-link" to="/contact">
+            Contact
+          </Link>
+        </li>
+        <li class="nav-four">
+          <a href="#">Quatro</a>
+        </li>
+        <hr />
+      </ul>
     </div>
   );
 }

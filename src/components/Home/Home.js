@@ -18,7 +18,7 @@ function Home() {
           in creating responsive and interactive websites and apps using the
           latest technologies available. I have a passion for web design and
           love to create for web and mobile devices.
-          <hr />
+          <hr class="home-hr" />
         </p>
         I am currently enrolled in Lambda School's 9-month immersive Full Stack
         Web program, learning to design programs using the industry's latest

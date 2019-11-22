@@ -1,5 +1,6 @@
 .home-container {
   text-align: center;
+  color: #6b5a5f;
 }
 .about {
   width: 50%;
@@ -24,5 +25,10 @@
   background-color: #9d8189;
 }
 .four {
+  background-color: #ffcadf;
+}
+
+.home-hr {
+  width: 100%;
   background-color: #ffcadf;
 }
