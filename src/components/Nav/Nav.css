@@ -1,4 +1,4 @@
-.container {
+/* .container {
   width: 50%;
   margin: 0 auto;
 }
@@ -35,4 +35,21 @@ hr {
   background: tomato;
   border: none;
   transition: 0.3s ease-in-out;
+} */
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+li {
+  display: inline-block;
+  margin: 0 2em;
+}
+a {
+  color: #333;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }

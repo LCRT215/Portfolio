@@ -10,7 +10,7 @@ function Home() {
           className="memoji"
           width="150"
           height="150"
-          src={require("../images/hand-raised.png")}
+          src={require("../images/open-smile.png")}
         />
         <h1>Hi, I'm Leslie!</h1>
         <p>
