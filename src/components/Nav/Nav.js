@@ -6,7 +6,7 @@ function NavBar() {
   return (
     ///////////////////////////
     <div class="container">
-      <ul>
+      {/* <ul>
         <li>
           <Link class="nav-link" to="/">
             About
@@ -26,6 +26,18 @@ function NavBar() {
           <a href="#">Quatro</a>
         </li>
         <hr />
+      </ul> */}
+
+      <ul class="example02">
+        <li>
+          <a href="#">menu01</a>
+        </li>
+        <li>
+          <a href="#">menu02</a>
+        </li>
+        <li>
+          <a href="#">menu03</a>
+        </li>
       </ul>
     </div>
   );

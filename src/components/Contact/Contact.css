@@ -1,6 +1,6 @@
 .contact {
   margin: 0 auto;
-  width: 500px;
+  width: 50%;
   font-size: 16px;
   margin-bottom: 200px;
   color: #6b5a5f;
@@ -15,20 +15,6 @@
 
 .image {
   margin-bottom: 50px;
-}
-
-.email {
-  text-decoration: none;
-  color: green;
-}
-.form-container {
-  /* text-align: center; */
-}
-.input {
-  width: 100%;
-}
-.form-text {
-  margin-bottom: -1px;
 }
 
 .linkedin {
