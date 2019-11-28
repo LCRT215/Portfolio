@@ -18,9 +18,9 @@ function Contact() {
           src={require("../images/crossed.png")}
         />
         <p>
-          Feel free to reach out if you have any questions, chat about
-          opportunities, or just want to say hello! Find me on social media,
-          email me at{" "}
+          Feel free to reach out if you have any questions, would like to chat
+          about opportunities, or just want to say hello! Find me on social
+          media, email me at{" "}
           <a href="mailto:lcrthompson@gmail.com" className="link">
             lcrthompson@gmail.com
           </a>
