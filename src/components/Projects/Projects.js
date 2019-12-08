@@ -3,6 +3,8 @@ import "./Projects.css";
 import ProjectCard from "./ProjectCard";
 // import Firefly from "../../animations/fireflyHover.js";
 
+// Projects to add:
+
 function Projects() {
   return (
     <div className="projects-container">
