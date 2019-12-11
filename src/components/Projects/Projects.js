@@ -10,6 +10,7 @@ import ProjectCard2 from "./ProjectCard2";
 function Projects() {
   return (
     <div className="projects-container">
+      <h1>{"{ my projects }"}</h1>
       <ProjectCard2 />
       <ProjectCard
         title="Replate"

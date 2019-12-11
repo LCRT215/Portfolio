@@ -1,6 +1,7 @@
 import React from "react";
 import "../Home/Home.css";
 import { Link } from "react-router-dom";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Home() {
   return (
@@ -26,6 +27,18 @@ function Home() {
         technologies and will shortly finish the course on Computer Science with
         Web Development focus.
         <br />
+        <a
+          href="https://www.linkedin.com/in/leslie-thompson-"
+          target="_blank"
+          className="linkedin"
+        >
+          {" "}
+          <FaLinkedin />
+        </a>
+        {"     "}
+        <a href="https://github.com/LCRT215" target="_blank" className="github">
+          <FaGithub />
+        </a>
       </div>
       <div className="sections one">
         <h2>Languages</h2>

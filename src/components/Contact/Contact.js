@@ -11,6 +11,8 @@ function Contact() {
   return (
     <div className="contact">
       <div className="head">
+        <h1>{"[ contact me ]"}</h1>
+
         <img
           className="image"
           width="200"
