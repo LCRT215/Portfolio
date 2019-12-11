@@ -10,17 +10,17 @@ function NavBar() {
       <ul class="nav-bar">
         <li>
           <Link class="nav-link" to="/">
-            About
+            about
           </Link>
         </li>
         <li class="nav-two">
           <Link class="nav-link" to="/projects">
-            Projects
+            projects
           </Link>
         </li>
         <li class="nav-three">
           <Link class="nav-link" to="/contact">
-            Contact
+            contact
           </Link>
         </li>
       </ul>
