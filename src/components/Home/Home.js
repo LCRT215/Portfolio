@@ -47,7 +47,7 @@ function Home() {
       <div className="sections two">
         <h2> Libraries & Frameworks</h2>
         React | Redux | Node | Express | Knex | Firebase | Axios | Postgresql |
-        SCSS | Styled-components | Bootstrap and more...
+        SCSS | Styled-components | Bootstrap and more..
       </div>
       <div className="sections three">
         <h2> Production Tools</h2>
