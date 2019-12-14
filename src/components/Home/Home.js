@@ -13,6 +13,7 @@ function Home() {
           height="150"
           src={require("../images/open-smile.png")}
         />
+        {/* Make this more simple and to the point */}
         <h1>Hi, I'm Leslie!</h1>
         <p>
           I'm a Full Stack Developer based in Philadelphia, PA with experience

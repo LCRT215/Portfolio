@@ -6,7 +6,7 @@ function NavBar() {
   return (
     <div class="nav-container">
       <div class="name">Leslie Thompson</div>
-
+      {/* Shrink nav height and font. Change name font to look more like a logo */}
       <ul class="nav-bar">
         <li>
           <Link class="nav-link" to="/">
