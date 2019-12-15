@@ -5,11 +5,21 @@ import ProjectCard from "./ProjectCard";
 
 import ProjectCard2 from "./ProjectCard2";
 
-// Projects to add:
-//firefly
-//a to z (backend)
-//Replate (UI - HTML|SCSS)
-//Droom (Front-end|React)
+//////Projects to add:
+// Project Firefly
+// A to Z (backend)
+// Replate (UI - HTML|SCSS)
+// Droom (Front-end|React)
+// Bookr or Split the Bill?? (Project Lead)
+// Redux Smurfs (add new repo/project)
+// Lambda Times (sprint)
+
+//////Projects to make:
+// Daily motivation app (maybe make the api as well so I can add my own quotes)
+// Add a todo to motivation app
+// Wifi locater (if I can find a wifi api)
+// Something with Redux
+// Make site for non profit or small business
 
 function Projects() {
   return (
