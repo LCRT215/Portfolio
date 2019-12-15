@@ -6,6 +6,10 @@ import ProjectCard from "./ProjectCard";
 import ProjectCard2 from "./ProjectCard2";
 
 // Projects to add:
+//firefly
+//a to z (backend)
+//Replate (UI - HTML|SCSS)
+//Droom (Front-end|React)
 
 function Projects() {
   return (
