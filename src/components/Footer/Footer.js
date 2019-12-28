@@ -33,7 +33,7 @@ function Footer() {
           </Nav.Item>
         </Nav>
       </div>
-      Leslie Thompson © 2019
+      Created and designed with ❤️ by Leslie Thompson © 2019
     </div>
   );
 }
