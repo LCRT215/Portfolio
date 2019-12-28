@@ -20,7 +20,7 @@ function App() {
         />
         <Nav />
         <Route exact path="/" component={Home} />
-        <Route path="/projects" component={Projects} />
+        <Route path="/work" component={Projects} />
 
         <Route path="/contact" component={Contact} />
         <Footer className="footer" />

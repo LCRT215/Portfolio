@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import "./Projects.css";
-import ProjectCard from "./ProjectCard";
-// import Firefly from "../../animations/fireflyHover.js";
 import data from "./projectData";
-
 import ProjectCard2 from "./ProjectCard2";
 
 //////Projects to add:
@@ -26,18 +23,28 @@ import ProjectCard2 from "./ProjectCard2";
 
 function Projects() {
   return (
-    <div className="projects-container">
-      <h1>{"{ my projects }"}</h1>
-      {/* <ProjectCard2 />
+    <div>
+      <div className="projects-container">
+        <h1 className="header">{"{ my work }"}</h1>
+        {/* <ProjectCard2 />
       <ProjectCard
         title="Replate"
         titleColor="replateTitle"
         description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
         descriptionColor="replateDescription"
       /> */}
-      {data.map(project => (
-        <ProjectCard2 key={project.id} width="100%" title={project.title} />
-      ))}
+        {data.map(project => (
+          <ProjectCard2
+            key={project.id}
+            width="100%"
+            title={project.title}
+            description={project.description}
+            github={project.github}
+            link={project.link}
+            tech={project.tech}
+          />
+        ))}
+      </div>
     </div>
   );
 }
