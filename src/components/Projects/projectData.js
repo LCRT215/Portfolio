@@ -5,6 +5,8 @@ export default [
     titleColor: "fireflyTitle",
     description:
       "Firefly is a proof-of-concept application designed for how 4-6 year-old children learn - through play and experience. We created an innovative, open-ended coding environment that encourages experimentation by using React and animated SVGs to build an intuitive learning experience, which allows children to figure things out without feeling stuck. Firefly more accurately teaches what it means to be an engineer, with responsive interactions using drag and drop blocks that can be combined to code their own customizable fireflies.",
+    tech:
+      "React | React DnD | Firebase & Firestore | GraphQL | SQLite | Node.js",
     github: "https://github.com/projectfirefly",
     link: "https://projectfirefly.netlify.com/"
   },
@@ -13,6 +15,7 @@ export default [
     title: "Replate",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    tech: "React | JavaScript | SCSS ",
     github: "https://github.com/replate-phil/UI-Build-Week-1"
   },
   {
@@ -21,7 +24,7 @@ export default [
     description:
       "BACKEND ----- Lorem Ipsum is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     github: "https://github.com/a-to-z-experiences/AtoZ_backend",
-    tech: "node | SQL",
+    tech: "React | Node.js | SQL",
     link: ""
   },
   {
