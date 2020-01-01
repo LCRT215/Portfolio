@@ -1,5 +1,6 @@
 import React from "react";
 import "./Projects.css";
+import Tech from "./Tech";
 
 function ProjectCard2(props) {
   return (
@@ -25,5 +26,15 @@ function ProjectCard2(props) {
     </div>
   );
 }
-
+// {data.map(project => (
+//   <ProjectCard2
+//     key={project.id}
+//     width="100%"
+//     title={project.title}
+//     description={project.description}
+//     github={project.github}
+//     link={project.link}
+//     tech={project.tech}
+//   />
+// ))}
 export default ProjectCard2;
