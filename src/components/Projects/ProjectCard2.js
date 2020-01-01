@@ -4,17 +4,16 @@ import "./Projects.css";
 
 function ProjectCard2(props) {
   return (
-    <div className="card2-container">
+    <div className="cardContainer">
       <div className="projectImg"></div>
+      <div className="textContainer">
+        <h3 className={`title ${props.titleFont}`}> {props.title} </h3>
+        <p className="description">{props.description} </p>
 
-      {/* className={`projects-title ${props.titleColor}`} */}
-
-      <h3 className={`title ${props.titleFont}`}> {props.title} </h3>
-      <p>{props.description} </p>
-
-      <div className="tech">
-        <h5>Technologies</h5>
-        <p>{props.tech}</p>
+        <div className="tech">
+          <h5>Technologies</h5>
+          <p>{props.tech}</p>
+        </div>
       </div>
       <div className="buttons">
         <a href={props.link} target="_blank">
