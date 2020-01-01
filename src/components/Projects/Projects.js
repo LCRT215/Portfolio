@@ -38,6 +38,7 @@ function Projects() {
             key={project.id}
             width="100%"
             title={project.title}
+            titleFont={project.titleFont}
             description={project.description}
             github={project.github}
             link={project.link}
