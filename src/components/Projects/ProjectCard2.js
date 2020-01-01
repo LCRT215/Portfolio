@@ -1,13 +1,15 @@
 import React from "react";
 import "./Projects.css";
-import Tech from "./Tech";
+// import Tech from "./Tech";
 
 function ProjectCard2(props) {
   return (
     <div className="card2-container">
       <div className="projectImg"></div>
 
-      <h3> {props.title} </h3>
+      {/* className={`projects-title ${props.titleColor}`} */}
+
+      <h3 className={`title ${props.titleFont}`}> {props.title} </h3>
       <p>{props.description} </p>
 
       <div className="tech">
@@ -15,12 +17,11 @@ function ProjectCard2(props) {
         <p>{props.tech}</p>
       </div>
       <div className="buttons">
-        <a href={props.github} target="_blank">
-          <button>See GitHub</button>
-        </a>
-
         <a href={props.link} target="_blank">
           <button>See project</button>
+        </a>
+        <a href={props.github} target="_blank">
+          <button>See GitHub</button>
         </a>
       </div>
     </div>
