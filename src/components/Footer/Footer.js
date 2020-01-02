@@ -6,7 +6,10 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 function Footer() {
   return (
     <div className="footer">
-      <div>
+      <span className="copy">
+        Created and designed by Leslie Thompson © 2019
+      </span>
+      {/* <div className="footerLinks">
         <Nav className="justify-content-center" activeKey="/home">
           <Nav.Item>
             <Nav.Link href="https://github.com/LCRT215" target="_blank">
@@ -32,8 +35,7 @@ function Footer() {
             </Nav.Link>
           </Nav.Item>
         </Nav>
-      </div>
-      Created and designed with ❤️ by Leslie Thompson © 2019
+      </div> */}
     </div>
   );
 }

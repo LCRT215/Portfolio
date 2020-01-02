@@ -1,0 +1,9 @@
+.footer {
+  /* background-color: #fcf7f8; */
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #5a494e;
+  padding: 2%;
+  opacity: 0.3;
+  /* display: flex; */
+}

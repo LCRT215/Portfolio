@@ -11,7 +11,11 @@ function Contact() {
   return (
     <div className="contact">
       <div className="head">
-        <h1>{"[ contact me ]"}</h1>
+        <h1 className="header">
+          <span className="headerAccent">{"[ "}</span>
+          contact me
+          <span className="headerAccent">{" ]"}</span>
+        </h1>
 
         <img
           className="image"
