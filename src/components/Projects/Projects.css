@@ -4,20 +4,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 5%;
 }
 .header {
-  margin: 2% 0;
+  margin-bottom: 2%;
   font-size: 50px;
+  font-family: "Open Sans", sans-serif;
+  color: #6b5a5f;
+}
+
+.headerAccent {
+  color: #ce8fa0;
 }
 
 /* ProjectCard2.js */
 .cardContainer {
+  background-color: #fcf7f8;
   width: 60%;
   text-align: center;
-  /* border: lightgray solid 1px; */
   padding: 1%;
   margin: 1% 0;
-  /* background-image: url("../images/peace.png"); */
   -webkit-box-shadow: 14px 6px 32px -4px rgba(158, 155, 158, 0.56);
   -moz-box-shadow: 14px 6px 32px -4px rgba(158, 155, 158, 0.56);
   box-shadow: 14px 6px 32px -4px rgba(158, 155, 158, 0.56);
@@ -28,9 +34,6 @@
   height: 400px;
 }
 
-/* .textContainer {
-  margin-top: 4%;
-} */
 .title {
   font-size: 55px;
   margin-top: 3%;
@@ -51,8 +54,13 @@
   font-weight: bold;
   color: #d6b45e;
 }
-.tech {
+.techContainer {
   font-family: "Open Sans", sans-serif;
+}
+.techTitle {
+  /* font-weight: bold; */
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
 }
 .description {
   font-family: "Open Sans", sans-serif;

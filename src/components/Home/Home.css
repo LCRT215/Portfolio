@@ -1,7 +1,19 @@
 .home-container {
   text-align: center;
   color: #6b5a5f;
+  font-family: "Open Sans", sans-serif;
 }
+.greeting {
+  font-family: "Quicksand", sans-serif;
+  margin: 4% 0;
+  font-size: 60px;
+  /* font-weight: bold; */
+}
+
+.homeText {
+  margin: 5% 0;
+}
+
 .about {
   width: 50%;
   margin: 0 auto;

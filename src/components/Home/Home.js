@@ -14,20 +14,21 @@ function Home() {
           src={require("../images/open-smile.png")}
         />
         {/* Make this more simple and to the point */}
-        <h1>Hi, I'm Leslie!</h1>
-        <p>
-          I'm a Full Stack Developer based in Philadelphia, PA with experience
-          in creating responsive and interactive websites and apps using the
-          latest technologies available. I specialize in Javascript, React, and
-          Node/Express. I have a passion for web design and love to create for
-          web and mobile devices.
-          <hr class="home-hr" />
-        </p>
-        I am currently enrolled in Lambda School's 9-month immersive Full Stack
-        Web program, learning to design programs using the industry's latest
-        technologies and will shortly finish the course on Computer Science with
-        Web Development focus.
-        <br />
+        <h1 className="greeting">Hi, I'm Leslie</h1>
+        <div className="homeText">
+          <p>
+            I'm a Full Stack Developer based in Philadelphia, PA with experience
+            in creating responsive and interactive websites and apps using the
+            latest technologies available. I specialize in Javascript, React,
+            and Node/Express. I have a passion for web design and love to create
+            for web and mobile devices.
+            <hr class="home-hr" />
+          </p>
+          I am currently enrolled in Lambda School's 9-month immersive Full
+          Stack Web program, learning to design programs using the industry's
+          latest technologies and will shortly finish the course on Computer
+          Science with Web Development focus.
+        </div>
         <a
           href="https://www.linkedin.com/in/leslie-thompson-"
           target="_blank"
@@ -58,13 +59,6 @@ function Home() {
         <h2>Production Strategy</h2>
         Responsive Design | Feature road mapping | Product boards | User
         feedback gathering | Story boarding
-      </div>
-      <div>
-        <p>
-          Take a look at some of my recent projects. If you have any questions
-          or would like to chat, please feel free to{" "}
-          <Link to="/contact">reach out to me</Link>.
-        </p>
       </div>
     </div>
   );

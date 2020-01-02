@@ -10,8 +10,8 @@ function ProjectCard2(props) {
         <h3 className={`title ${props.titleFont}`}> {props.title} </h3>
         <p className="description">{props.description} </p>
 
-        <div className="tech">
-          <h5>Technologies</h5>
+        <div className="techContainer">
+          <h5 className="techTitle">Technologies</h5>
           <p>{props.tech}</p>
         </div>
       </div>
