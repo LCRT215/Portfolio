@@ -7,3 +7,7 @@
   opacity: 0.3;
   /* display: flex; */
 }
+.footer:hover {
+  color: #5a494e;
+  opacity: 1;
+}

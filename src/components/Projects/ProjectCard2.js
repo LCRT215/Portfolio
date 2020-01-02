@@ -1,6 +1,5 @@
 import React from "react";
-import "./Projects.css";
-// import Tech from "./Tech";
+import "./Projects.scss";
 
 function ProjectCard2(props) {
   return (
@@ -15,26 +14,21 @@ function ProjectCard2(props) {
           <p>{props.tech}</p>
         </div>
       </div>
-      <div className="buttons">
+      <div className="buttons try">
         <a href={props.link} target="_blank">
-          <button>See project</button>
+          <button className="button button--secondary">
+            <span class="button__inner">See project</span>
+          </button>
         </a>
+
         <a href={props.github} target="_blank">
-          <button>See GitHub</button>
+          <button className="button button--secondary">
+            <span class="button__inner">See GitHub</span>
+          </button>
         </a>
       </div>
     </div>
   );
 }
-// {data.map(project => (
-//   <ProjectCard2
-//     key={project.id}
-//     width="100%"
-//     title={project.title}
-//     description={project.description}
-//     github={project.github}
-//     link={project.link}
-//     tech={project.tech}
-//   />
-// ))}
+
 export default ProjectCard2;
