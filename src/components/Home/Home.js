@@ -45,8 +45,19 @@ function Home() {
       <div className="sections one">
         <h2>Languages</h2>
         Javascript | HTML5 | CSS | SQL | GraphQL
+        <br />
+        <h2> Libraries & Frameworks</h2>
+        React | Redux | Node | Express | Knex | Firebase | Axios | Postgresql |
+        SCSS | Styled-components | Bootstrap and more..
+        <br />
+        <h2> Production Tools</h2>
+        Git | Github | Heroku | Notion | Trello
+        <br />
+        <h2>Production Strategy</h2>
+        Responsive Design | Feature road mapping | Product boards | User
+        feedback gathering | Story boarding
       </div>
-      <div className="sections two">
+      {/* <div className="sections two">
         <h2> Libraries & Frameworks</h2>
         React | Redux | Node | Express | Knex | Firebase | Axios | Postgresql |
         SCSS | Styled-components | Bootstrap and more..
@@ -59,7 +70,7 @@ function Home() {
         <h2>Production Strategy</h2>
         Responsive Design | Feature road mapping | Product boards | User
         feedback gathering | Story boarding
-      </div>
+      </div> */}
     </div>
   );
 }
