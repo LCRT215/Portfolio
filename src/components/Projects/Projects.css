@@ -81,13 +81,18 @@
 
 /* ProjectCard2.js */
 .cardContainer {
-  background-color: #fcf7f8;
+  background-color: #fff7f9;
   width: 60%;
   text-align: center;
   padding: 3% 2%;
   margin: 1% 0;
   -webkit-box-shadow: 14px 6px 32px -4px rgba(158, 155, 158, 0.56);
   box-shadow: 14px 6px 32px -4px rgba(158, 155, 158, 0.56);
+  opacity: 0.6;
+}
+
+.cardContainer:hover {
+  opacity: 1;
 }
 
 .projectImg {
