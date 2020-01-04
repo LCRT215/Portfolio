@@ -9,6 +9,9 @@
       -ms-flex-pack: end;
           justify-content: flex-end;
   background-color: #fcf7f8;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .name {
