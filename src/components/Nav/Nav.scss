@@ -86,7 +86,7 @@
 }
 
 .nav-bar {
-  width: 90%;
+  width: 60%;
   list-style: none;
   text-align: right;
   li {
@@ -94,23 +94,10 @@
     margin: 0 2%;
     a {
       color: #333;
-      font-size: 18px;
-      font-family: "Open Sans", sans-serif;
       font-weight: 400;
       @include hover-underline("fade", "top");
     }
   }
-}
-
-.nav-bar {
-  width: 90%;
-  list-style: none;
-  text-align: right;
-}
-
-.nav-bar li {
-  display: inline-block;
-  margin: 0 2%;
 }
 
 .nav-bar li a {
@@ -141,4 +128,58 @@
   bottom: -4px;
   opacity: 1;
   visibility: visible;
+}
+
+//////////MEDIA QUERIES///////
+@media screen and (max-width: 1005px) {
+  .nav-bar li a {
+    font-size: 16px;
+  }
+  .nav-bar li {
+    margin: 0 0.5%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .nav-bar li a {
+    font-size: 16px;
+  }
+  .nav-bar li {
+    margin: 0 0%;
+  }
+}
+
+@media screen and (max-width: 838px) {
+  .nav-container {
+    padding: 0;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    flex-direction: column;
+  }
+  .name {
+    font-size: 25px;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-bar {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    li {
+      margin: 0;
+      a {
+        font-size: 14px;
+      }
+    }
+  }
 }
