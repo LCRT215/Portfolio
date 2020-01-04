@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.nav-space {
+  height: 100px;
+}
 /* 
 .nav-border {
   width: 100%;

@@ -14,7 +14,9 @@ function Home() {
           src={require("../images/open-smile.png")}
         />
         {/* Make this more simple and to the point */}
-        <h1 className="greeting">Hi, I'm Leslie</h1>
+        <div className="hummmm">
+          <h1 className="greeting">Hi, I'm Leslie</h1>
+        </div>
         <div className="homeText">
           <p>
             I'm a Full Stack Developer based in Philadelphia, PA with experience
@@ -48,10 +50,10 @@ function Home() {
         <br />
         <h2> Libraries & Frameworks</h2>
         React | Redux | Node | Express | Knex | Firebase | Axios | Postgresql |
-        SCSS | Styled-components | Bootstrap and more..
+        SCSS | Styled-components | Bootstrap and more...
         <br />
         <h2> Production Tools</h2>
-        Git | Github | Heroku | Notion | Trello
+        Git | Github | Heroku | Netlify | Notion | Trello
         <br />
         <h2>Production Strategy</h2>
         Responsive Design | Feature road mapping | Product boards | User

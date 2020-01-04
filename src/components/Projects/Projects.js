@@ -25,11 +25,13 @@ function Projects() {
   return (
     <div>
       <div className="projects-container">
-        <h1 className="header">
-          <span className="headerAccent">{"{ "}</span>
-          my work
-          <span className="headerAccent">{" }"}</span>
-        </h1>
+        <div className="whyyyy">
+          <h1 className="header">
+            <span className="headerAccent">{"{ "}</span>
+            projects
+            <span className="headerAccent">{" }"}</span>
+          </h1>
+        </div>
 
         {data.map(project => (
           <ProjectCard2

@@ -19,6 +19,7 @@ function App() {
           crossorigin="anonymous"
         />
         <Nav />
+        <div className="nav-space" />
         <Route exact path="/" component={Home} />
         <Route path="/work" component={Projects} />
 

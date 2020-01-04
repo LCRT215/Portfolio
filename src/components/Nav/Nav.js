@@ -15,7 +15,7 @@ function NavBar() {
         </li>
         <li class="nav-two">
           <Link class="l nav-link" to="/work">
-            work
+            projects
           </Link>
         </li>
         <li class="nav-three">
@@ -26,7 +26,7 @@ function NavBar() {
         <li class="nav-four">
           <a
             class="l nav-link"
-            href="https://docs.google.com/document/d/1f5hU9xywzNAb7RkOUUF9Kg51js1z2AvWuDLaq4tWrVE/edit?usp=sharing"
+            href="https://docs.google.com/document/d/e/2PACX-1vTUJrI_WXb5G1-hXPQuPxCKutetDReaxM2RszcU5WgQiSDC9tRjQYP0y-EthUkFLi1fWKcqBbCT_okj/pub"
             target="_blank"
           >
             resume
