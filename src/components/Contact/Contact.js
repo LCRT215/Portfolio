@@ -10,12 +10,13 @@ function Contact() {
   return (
     <div className="contact">
       <div className="head">
-        <h1 className="contact-header">
-          <span className="headerAccent">{"[ "}</span>
-          contact me
-          <span className="headerAccent">{" ]"}</span>
-        </h1>
-
+        <div className="contact-header-container">
+          <h1 className="contact-header">
+            <span className="headerAccent">{"[ "}</span>
+            contact me
+            <span className="headerAccent">{" ]"}</span>
+          </h1>
+        </div>
         <img
           className="image"
           width="200"
