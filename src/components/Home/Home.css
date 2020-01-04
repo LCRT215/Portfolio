@@ -9,13 +9,17 @@
 }
 
 .greeting-container {
-  width: 80%;
+  width: 65%;
   margin: 0 auto;
 }
+/* @font-face {
+  font-family: "MyFont";
+  src: url("../../fonts/TravelingTypewriter.ttf") format("ttf");
+} */
 .greeting {
   /* font-family: "Quicksand", sans-serif; */
   font-size: 4vw;
-  font-family: monospace;
+  font-family: "Special Elite", cursive;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 0.15em solid #f4acbf; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -86,14 +90,14 @@ h2 {
   background-color: #ffcadf;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 800px) {
   .about {
     width: 80%;
     margin-top: 20px;
     margin-bottom: 50px;
   }
   .greeting-container {
-    width: 100%;
+    width: 85%;
     margin: 0 auto;
   }
   .greeting {

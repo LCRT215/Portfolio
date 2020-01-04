@@ -14,7 +14,8 @@
 }
 
 .header-container {
-  width: 21%;
+  height: 100%;
+  width: 25%;
   margin: 0 auto;
   padding-bottom: 6%;
 }
@@ -22,7 +23,7 @@
 .header {
   margin-bottom: 2%;
   font-size: 4vw;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Special Elite", cursive;
   color: #6b5a5f;
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */
@@ -251,42 +252,26 @@
 
 @media screen and (max-width: 1384px) {
   .header-container {
-    width: 22%;
-    margin: 0 auto;
-  }
-  .header {
-    font-size: 3vw;
-  }
-}
-
-@media screen and (max-width: 1307px) {
-  .header-container {
-    width: 23%;
-    margin: 0 auto;
-  }
-  .header {
-    font-size: 1vw;
-  }
-}
-
-@media screen and (max-width: 1248px) {
-  .header-container {
     width: 100%;
     margin: 0 auto;
+    padding-bottom: 6%;
     text-align: center;
   }
   .header {
-    margin-bottom: 2%;
-    font-size: 4vw;
-    font-family: "Open Sans", sans-serif;
-    color: #6b5a5f;
+    padding-bottom: 2%;
+    font-size: 55px;
     border-right: none;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    letter-spacing: 0.05em;
+    /* Adjust as needed */
     -webkit-animation: none;
             animation: none;
   }
 }
 
-@media screen and (max-width: 1248px) {
+@media screen and (max-width: 900px) {
   .cardContainer {
     width: 90%;
   }

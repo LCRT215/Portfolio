@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "../Contact/Contact.css";
 import Calendly from "./Calendly.js";
-import Nav from "react-bootstrap/Nav";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Contact() {
@@ -11,7 +10,7 @@ function Contact() {
   return (
     <div className="contact">
       <div className="head">
-        <h1 className="header">
+        <h1 className="contact-header">
           <span className="headerAccent">{"[ "}</span>
           contact me
           <span className="headerAccent">{" ]"}</span>

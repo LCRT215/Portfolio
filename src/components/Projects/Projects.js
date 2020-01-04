@@ -23,29 +23,27 @@ import ProjectCard2 from "./ProjectCard2";
 
 function Projects() {
   return (
-    <div>
-      <div className="projects-container">
-        <div className="header-container">
-          <h1 className="header">
-            <span className="headerAccent">{"{ "}</span>
-            <a>projects</a>
-            <span className="headerAccent">{" }"}</span>
-          </h1>
-        </div>
-
-        {data.map(project => (
-          <ProjectCard2
-            key={project.id}
-            width="100%"
-            title={project.title}
-            titleFont={project.titleFont}
-            description={project.description}
-            github={project.github}
-            link={project.link}
-            tech={project.tech}
-          />
-        ))}
+    <div className="projects-container">
+      <div className="header-container">
+        <h1 className="header">
+          <span className="headerAccent">{"{ "}</span>
+          <a>projects</a>
+          <span className="headerAccent">{" }"}</span>
+        </h1>
       </div>
+
+      {data.map(project => (
+        <ProjectCard2
+          key={project.id}
+          width="100%"
+          title={project.title}
+          titleFont={project.titleFont}
+          description={project.description}
+          github={project.github}
+          link={project.link}
+          tech={project.tech}
+        />
+      ))}
     </div>
   );
 }
