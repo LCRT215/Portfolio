@@ -1,6 +1,6 @@
 .contact {
   margin: 0 auto;
-  width: 50%;
+  width: 60%;
   font-size: 16px;
   margin-bottom: 200px;
   color: #6b5a5f;
@@ -12,10 +12,10 @@
   text-align: center;
   margin: 0 auto;
   margin-bottom: 35px;
-  /* border: solid yellow 2px; */
 }
-.header {
+.contact-header {
   font-size: 50px;
+  font-family: "Special Elite", cursive;
 }
 .headerAccent {
   color: #ce8fa0;
@@ -66,4 +66,9 @@
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+@media screen and (max-width: 600px) {
+  .contact {
+    width: 90%;
+  }
 }
