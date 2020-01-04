@@ -22,7 +22,7 @@ function Home() {
           <p>
             I'm a Full Stack Developer based in Philadelphia, PA with experience
             in creating responsive and interactive websites and apps using the
-            latest technologies available.
+            latest technologies.
             {/* I have a passion for web design and love to create
             for web and mobile devices. */}
             <hr class="home-hr" />

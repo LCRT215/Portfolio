@@ -117,7 +117,7 @@
 
   .contact-header {
     padding-bottom: 2%;
-    font-size: 55px;
+    font-size: 45px;
     border-right: none; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     letter-spacing: 0.05em; /* Adjust as needed */
