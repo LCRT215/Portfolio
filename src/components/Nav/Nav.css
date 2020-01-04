@@ -32,7 +32,7 @@
 }
 
 .nav-bar {
-  width: 90%;
+  width: 60%;
   list-style: none;
   text-align: right;
 }
@@ -44,8 +44,6 @@
 
 .nav-bar li a {
   color: #333;
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   position: relative;
   display: inline-block;
@@ -70,17 +68,6 @@
   bottom: -4px;
   opacity: 1;
   visibility: visible;
-}
-
-.nav-bar {
-  width: 90%;
-  list-style: none;
-  text-align: right;
-}
-
-.nav-bar li {
-  display: inline-block;
-  margin: 0 2%;
 }
 
 .nav-bar li a {
@@ -111,5 +98,65 @@
   bottom: -4px;
   opacity: 1;
   visibility: visible;
+}
+
+@media screen and (max-width: 1005px) {
+  .nav-bar li a {
+    font-size: 16px;
+  }
+  .nav-bar li {
+    margin: 0 0.5%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .nav-bar li a {
+    font-size: 16px;
+  }
+  .nav-bar li {
+    margin: 0 0%;
+  }
+}
+
+@media screen and (max-width: 838px) {
+  .nav-container {
+    padding: 0;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .name {
+    font-size: 25px;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-bar {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .nav-bar li {
+    margin: 0;
+  }
+  .nav-bar li a {
+    font-size: 14px;
+  }
 }
 /*# sourceMappingURL=Nav.css.map */

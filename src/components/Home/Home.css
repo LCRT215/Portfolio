@@ -85,3 +85,37 @@ h2 {
   width: 100%;
   background-color: #ffcadf;
 }
+
+@media screen and (max-width: 420px) {
+  .about {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .greeting-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .greeting {
+    font-size: 8.5vw;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    letter-spacing: 0.05em; /* Adjust as needed */
+  }
+  .homeText {
+    margin-top: 40px;
+  }
+  .sections {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5% 0;
+    margin-bottom: 50px;
+  }
+  .sections-text {
+    width: 80%;
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 12px;
+  }
+}

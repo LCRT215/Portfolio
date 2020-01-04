@@ -28,7 +28,7 @@ function Projects() {
         <div className="header-container">
           <h1 className="header">
             <span className="headerAccent">{"{ "}</span>
-            projects
+            <a>projects</a>
             <span className="headerAccent">{" }"}</span>
           </h1>
         </div>

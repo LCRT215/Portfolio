@@ -9,8 +9,7 @@
 .header-container {
   width: 21%;
   margin: 0 auto;
-  border: green solid 2px;
-  // margin-bottom: 10%;
+  padding-bottom: 6%;
 }
 
 .header {
@@ -187,7 +186,6 @@
     }
   }
 }
-
 //Secondary style
 .button--secondary {
   background-color: #ebc3d3;
@@ -203,5 +201,47 @@
     .button__inner {
       background-color: #fad9e6;
     }
+  }
+}
+
+@media screen and (max-width: 1384px) {
+  .header-container {
+    width: 22%;
+    margin: 0 auto;
+  }
+  .header {
+    font-size: 3vw;
+  }
+}
+@media screen and (max-width: 1307px) {
+  .header-container {
+    width: 23%;
+    margin: 0 auto;
+  }
+  .header {
+    font-size: 1vw;
+  }
+}
+@media screen and (max-width: 1248px) {
+  .header-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .header {
+    margin-bottom: 2%;
+    font-size: 4vw;
+    font-family: "Open Sans", sans-serif;
+    color: #6b5a5f;
+    border-right: none;
+    animation: none;
+  }
+}
+@media screen and (max-width: 1248px) {
+  .cardContainer {
+    width: 90%;
+  }
+  .button {
+    font-size: 14px;
   }
 }
