@@ -25,7 +25,7 @@ function Projects() {
   return (
     <div>
       <div className="projects-container">
-        <div className="whyyyy">
+        <div className="header-container">
           <h1 className="header">
             <span className="headerAccent">{"{ "}</span>
             projects
