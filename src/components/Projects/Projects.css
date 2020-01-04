@@ -13,15 +13,15 @@
   margin-top: 5%;
 }
 
-.whyyyy {
-  width: 20%;
+.header-container {
+  width: 21%;
   margin: 0 auto;
-  border: green solid 2 px;
+  border: green solid 2px;
 }
 
 .header {
   margin-bottom: 2%;
-  font-size: 8vw;
+  font-size: 4vw;
   font-family: "Open Sans", sans-serif;
   color: #6b5a5f;
   overflow: hidden;

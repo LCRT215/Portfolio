@@ -4,7 +4,11 @@
   font-family: "Open Sans", sans-serif;
 }
 
-.hummmm {
+.memoji {
+  margin-bottom: 6%;
+}
+
+.greeting-container {
   width: 80%;
   margin: 0 auto;
 }
@@ -41,7 +45,7 @@
 }
 
 .homeText {
-  margin: 5% 0;
+  margin: 9% 0;
 }
 
 .about {
@@ -56,6 +60,13 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 5% 0;
+}
+h2 {
+  font-weight: bolder;
+}
+.break {
+  height: 30px;
 }
 .one {
   background-color: #ffcadf;
