@@ -17,7 +17,8 @@ export default [
       "Replate is an fully responsive application that allows local businesses to donate their leftover foods and have a volunteer pick up the food and take it to peoples in need. (Think a philanthropic UberEats.) I created the UI for this application and am currently developing a back-end to make this a full-stack project.",
     tech: "HTML | LESS | JavaScript ",
     link: "https://replate-ui.netlify.com/",
-    github: "https://github.com/replate-phil/UI-Build-Week-1"
+    github: "https://github.com/replate-phil/UI-Build-Week-1",
+    img: "replate.jpg"
   },
   {
     id: 2,
