@@ -20,16 +20,16 @@ export default [
     github: "https://github.com/replate-phil/UI-Build-Week-1",
     img: "replate.jpg"
   },
-  {
-    id: 2,
-    title: "Love, Leslie",
-    titleFont: "loveLeslie",
-    description:
-      "Love, Leslie is a mobile-ready responsive web application created to provide users with a boost of joy throughout the day. This random motivational quote generator accesses a custom made API filled with my favorite motivational quotes and allows authenticated users to add their own. (In progress)",
-    tech: "React | CSS | Oauth | Node",
-    link: "https://condescending-goodall-d76084.netlify.com/",
-    github: "https://github.com/LCRT215/Project-Motivation"
-  },
+  // {
+  //   id: 2,
+  //   title: "Love, Leslie",
+  //   titleFont: "loveLeslie",
+  //   description:
+  //     "Love, Leslie is a mobile-ready responsive web application created to provide users with a boost of joy throughout the day. This random motivational quote generator accesses a custom made API filled with my favorite motivational quotes and allows authenticated users to add their own. (In progress)",
+  //   tech: "React | CSS | Oauth | Node",
+  //   link: "https://condescending-goodall-d76084.netlify.com/",
+  //   github: "https://github.com/LCRT215/Project-Motivation"
+  // },
   {
     id: 3,
     title: "A to Z",
