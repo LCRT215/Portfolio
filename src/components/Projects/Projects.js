@@ -2,11 +2,9 @@ import React, { useState } from "react";
 import "./Projects.css";
 import data from "./projectData";
 import ProjectCard2 from "./ProjectCard2";
+// import img from "./ProjectImages/replate.png"
 
 //////Projects to add:
-// Project Firefly
-// A to Z (backend)
-// Replate (UI - HTML|SCSS)
 // Droom (Front-end|React)
 // Bookr or Split the Bill?? (Project Lead)
 // Redux Smurfs (add new repo/project)
@@ -42,6 +40,7 @@ function Projects() {
           github={project.github}
           link={project.link}
           tech={project.tech}
+          img={project.img}
         />
       ))}
     </div>
