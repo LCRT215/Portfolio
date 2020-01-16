@@ -16,7 +16,7 @@ export default [
     description:
       "Replate is an fully responsive application that allows local businesses to donate their leftover foods and have a volunteer pick up the food and take it to peoples in need. (Think a philanthropic UberEats.) I created the UI for this application and am currently developing a back-end to make this a full-stack project.",
     tech: "HTML | LESS | JavaScript ",
-    link: "https://replate-ui.netlify.com/",
+    link: "https://replateproject.netlify.com",
     github: "https://github.com/replate-phil/UI-Build-Week-1",
     img: "replate.jpg"
   },
@@ -27,7 +27,7 @@ export default [
   //   description:
   //     "Love, Leslie is a mobile-ready responsive web application created to provide users with a boost of joy throughout the day. This random motivational quote generator accesses a custom made API filled with my favorite motivational quotes and allows authenticated users to add their own. (In progress)",
   //   tech: "React | CSS | Oauth | Node",
-  //   link: "https://condescending-goodall-d76084.netlify.com/",
+  //   link: "https://loveleslie.netlify.com",
   //   github: "https://github.com/LCRT215/Project-Motivation"
   // },
   {
