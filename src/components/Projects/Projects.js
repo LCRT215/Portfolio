@@ -37,6 +37,7 @@ function Projects() {
           title={project.title}
           titleFont={project.titleFont}
           description={project.description}
+          image={project.image}
           github={project.github}
           link={project.link}
           tech={project.tech}

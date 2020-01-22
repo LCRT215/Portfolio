@@ -20,9 +20,9 @@ function Home() {
         {/* Make this more simple and to the point */}
         <div className="homeText">
           <p>
-            I'm a Full Stack Developer based in Philadelphia, PA with experience
-            in creating responsive and interactive websites and apps using the
-            latest technologies.
+            I'm a Full Stack Developer based in Philadelphia, PA. I create
+            responsive and interactive websites and apps by learning and using
+            the latest technologies.
             {/* I have a passion for web design and love to create
             for web and mobile devices. */}
             <hr class="home-hr" />
