@@ -1,10 +1,28 @@
 import React from "react";
 import "./Projects.scss";
 // import pic from "./ProjectImages/replate.jpg";
-
+import replate from "../Projects/ProjectImages/replate.png";
+import firefly from "../Projects/ProjectImages/firefly.png";
 function ProjectCard2(props) {
-  console.log(props.img);
-  // const path = "./ProjectImages/" + props.img;
+  let projectImage;
+  if (props.titleFont === "replate") {
+    projectImage = <img className="projectImage" src={replate} alt="Logo" />;
+  } else if (props.titleFont === "firefly") {
+    projectImage = <img className="projectImage" src={firefly} alt="Logo" />;
+  }
+  // var loginButton;
+  // if (loggedIn) {
+  //   loginButton = <LogoutButton />;
+  // } else {
+  //   loginButton = <LoginButton />;
+  // }
+
+  // return (
+  //   <nav>
+  //     <Home />
+  //     {loginButton}
+  //   </nav>
+  // );
 
   return (
     <div className="cardContainer">
@@ -20,9 +38,17 @@ function ProjectCard2(props) {
       {/* <div style={"background-image: url('./ProjectImages/replate.jpg)"} /> */}
 
       <div className="textContainer">
+        {/* console.log(JSON.parse(myObjStr)); */}
+
+        {/* {props.titleFont === "replate" ? (
+          <img className="" src={replate} alt="Logo" />
+        ) : (
+          "no goooooo"
+        )} */}
+        {/* <img src={replate} alt="Logo" /> */}
+        {projectImage}
         <h3 className={`title ${props.titleFont}`}> {props.title} </h3>
         <p className="description">{props.description} </p>
-
         <div className="techContainer">
           <h5 className="techTitle">Technologies</h5>
           <p>{props.tech}</p>

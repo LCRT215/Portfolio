@@ -95,9 +95,8 @@
   opacity: 1;
 }
 
-.projectImg {
-  border: lightgray solid 1px;
-  height: 400px;
+.projectImage {
+  width: 95%;
 }
 
 .title {
