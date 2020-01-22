@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Projects.css";
 import data from "./projectData";
-import ProjectCard2 from "./ProjectCard2";
+import ProjectCard from "./ProjectCard";
 // import img from "./ProjectImages/replate.png"
 
 //////Projects to add:
@@ -31,7 +31,7 @@ function Projects() {
       </div>
 
       {data.map(project => (
-        <ProjectCard2
+        <ProjectCard
           key={project.id}
           width="100%"
           title={project.title}

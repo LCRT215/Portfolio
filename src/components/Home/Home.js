@@ -17,14 +17,11 @@ function Home() {
           <h1 className="greeting">Hi, I'm Leslie</h1>
         </div>
 
-        {/* Make this more simple and to the point */}
         <div className="homeText">
           <p>
             I'm a Full Stack Developer based in Philadelphia, PA. I create
             responsive and interactive websites and apps by learning and using
             the latest technologies.
-            {/* I have a passion for web design and love to create
-            for web and mobile devices. */}
             <hr class="home-hr" />
           </p>
           I specialize in Javascript, React, and Node/Express.
