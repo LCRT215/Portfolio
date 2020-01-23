@@ -60,6 +60,19 @@
   margin-bottom: 50px;
 }
 
+/* ICONS */
+
+.contactIcon {
+  color: #97727d;
+  padding: 0 2%;
+  font-size: 30px;
+  opacity: 0.3;
+}
+.contactIcon:hover {
+  opacity: 1;
+  color: #c494a3;
+}
+
 .linkedin {
   margin-right: 7%;
   font-size: 40px;

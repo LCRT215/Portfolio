@@ -207,6 +207,7 @@
   }
 }
 
+// MEDIA QUERIES
 @media screen and (max-width: 1384px) {
   .header-container {
     width: 100%;
@@ -223,6 +224,9 @@
     letter-spacing: 0.05em; /* Adjust as needed */
     animation: none;
   }
+  .cardContainer {
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -231,5 +235,8 @@
   }
   .button {
     font-size: 14px;
+  }
+  .cardContainer {
+    opacity: 1;
   }
 }
