@@ -39,13 +39,17 @@ function Contact() {
         <a
           href="https://www.linkedin.com/in/leslie-thompson-"
           target="_blank"
-          className="linkedin"
+          className="contactIcon linkedin"
         >
           {" "}
           <FaLinkedin />
         </a>
         {"     "}
-        <a href="https://github.com/LCRT215" target="_blank" className="github">
+        <a
+          href="https://github.com/LCRT215"
+          target="_blank"
+          className="contactIcon github"
+        >
           <FaGithub />
         </a>
       </div>
