@@ -26,7 +26,7 @@ function NavBar() {
         <li class="nav-four">
           <a
             class="l nav-link"
-            href="https://docs.google.com/document/d/e/2PACX-1vTUJrI_WXb5G1-hXPQuPxCKutetDReaxM2RszcU5WgQiSDC9tRjQYP0y-EthUkFLi1fWKcqBbCT_okj/pub"
+            href="https://docs.google.com/document/d/e/2PACX-1vSS_4eFLR9K7xRQSsdoHauZ7YwXvuvPt6OsyXjMd2hSrVmAIHpc3iHoC0oFoE3SjKnIvlq4_YS5S6rL/pub"
             target="_blank"
           >
             resume
