@@ -36,7 +36,7 @@ export default [
     title: "A to Z",
     titleFont: "aToZ",
     description:
-      "A to Z was a project I developed the back-end for with with a team of front-end developers. Pitch: Many stay home moms report feeling 'stir crazy' and their social needs are not met. Enter ABC experience (Think AirBNB experiences...but for stay at home moms) . People can host an experience, and earn money leading people on activities they love.",
+      "A to Z was a project I developed the back-end for with with a team of front-end developers. Pitch: Many stay home parents report feeling 'stir crazy' and their social needs are not met. Enter A to Z experiences (Think AirBNB experiences...but for stay at home parents) . Parents can host an experience, join new experiences, and earn money leading people on activities they love.",
     tech: "React | Node.js | Sqlite3 | Express | Jest",
     github: "https://github.com/a-to-z-experiences/AtoZ_backend",
     link: "https://atoz-backend.herokuapp.com/"
