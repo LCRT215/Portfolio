@@ -14,7 +14,9 @@ function ProjectCard2(props) {
     <div className="cardContainer">
       <div className="textContainer">
         <h3 className={`title ${props.titleFont}`}> {props.title} </h3>
-        {projectImage}
+        <a href={props.link} target="_blank">
+          {projectImage}
+        </a>
         <p className="description">{props.description} </p>
         <div className="techContainer">
           <h5 className="techTitle">Technologies</h5>
