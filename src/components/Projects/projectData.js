@@ -47,6 +47,14 @@ export default [
     titleFont: "bestBud",
     description:
       "bestBud educates new medical cannabis consumers and allows them to find the right strain as a means to battle medical conditions and ailments. I worked a a Project Lead on this cross-functional team project",
+    // - Maintaining a clean and safe work environment complying with safety measures and organizational standards and regulations.
+    // - As part of the creation process, tests must be performed on software to see how it measures up to expectations. Software project managers help determine what tests should be run and inspect the results for quality. They present a beta version to the client and select others for feedback.
+    // - Software project managers look for ways to improve operations. They aim to do things better, faster, and cheaper whenever possible but without sacrificing quality.
+    // - Lead the team members to perform their roles efficiently so that the project goals are achieved.
+    // - Review and give individual feedback to improve the skills of the team members so that performance of the project improves overall.
+    // - Posses people management and motivational skills to manage any or attitude issues of any team members.
+    // - Create a sense of bonding between team members that would result in a team work rather than individual contribution which may not synchronize well with the output of other individual outputs.
+    // - Clearly measure individual performance and contributions towards the success of the project and ensure a rewarding system that is set to felicitate the achievers.
     tech: "HTML |React | CSS | Node | PostgreSQL | Data Science",
     link: "https://bestbudhome.netlify.com/",
     github: "https://github.com/Med-Cabinet-BW"
