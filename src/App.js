@@ -23,7 +23,11 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/work" component={Projects} />
 
-        <Route path="/contact" component={Contact} />
+        <Route
+          // onUpdate={() => window.scrollTo(0, 0)}
+          path="/contact"
+          component={Contact}
+        />
         <Footer className="footer" />
       </div>
     </div>
