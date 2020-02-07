@@ -40,5 +40,15 @@ export default [
     tech: "React | Node.js | Sqlite3 | Express | Jest",
     github: "https://github.com/a-to-z-experiences/AtoZ_backend",
     link: "https://atoz-backend.herokuapp.com/"
+  },
+  {
+    id: 4,
+    title: "bestBud",
+    titleFont: "bestBud",
+    description:
+      "bestBud educates new medical cannabis consumers and allows them to find the right strain as a means to battle medical conditions and ailments. I worked a a Project Lead on this cross-functional team project",
+    tech: "HTML |React | CSS | Node | PostgreSQL | Data Science",
+    link: "https://bestbudhome.netlify.com/",
+    github: "https://github.com/Med-Cabinet-BW"
   }
 ];
