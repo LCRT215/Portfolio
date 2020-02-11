@@ -44,6 +44,12 @@ function Projects() {
           img={project.img}
         />
       ))}
+
+      <div className="portfolio-info-container">
+        <p className="portfolio-info-text">
+          ✨ This portfolio was create using React ✨
+        </p>
+      </div>
     </div>
   );
 }
