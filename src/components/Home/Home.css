@@ -12,10 +12,14 @@
   width: 65%;
   margin: 0 auto;
 }
-/* @font-face {
-  font-family: "MyFont";
-  src: url("../../fonts/TravelingTypewriter.ttf") format("ttf");
-} */
+.lambda {
+  text-decoration: none;
+  color: #cca4b0;
+}
+.lambda:hover {
+  color: #f4acbf;
+  text-decoration: none;
+}
 .greeting {
   /* font-family: "Quicksand", sans-serif; */
   font-size: 4vw;
@@ -86,6 +90,7 @@ h2 {
 }
 
 .home-hr {
+  margin: 5% 0;
   width: 100%;
   background-color: #ffcadf;
 }
@@ -108,6 +113,7 @@ h2 {
   .homeText {
     margin-top: 40px;
   }
+
   .sections {
     display: flex;
     justify-content: center;
