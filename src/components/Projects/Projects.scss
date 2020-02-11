@@ -10,7 +10,7 @@
   height: 100%;
   width: 25%;
   margin: 0 auto;
-  padding-bottom: 6%;
+  padding-bottom: 2%;
 }
 
 .header {
@@ -205,6 +205,16 @@
       background-color: #fad9e6;
     }
   }
+}
+
+.portfolio-info-container {
+  margin-top: 4%;
+}
+
+.portfolio-info-text {
+  color: #816b71;
+  font-size: 1.3em;
+  font-family: "Open Sans", sans-serif;
 }
 
 // MEDIA QUERIES
