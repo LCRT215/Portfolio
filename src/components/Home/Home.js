@@ -22,10 +22,19 @@ function Home() {
             I'm a Full Stack Developer based in Philadelphia, PA. I create
             responsive and interactive websites and apps by learning and using
             the latest technologies.
-            <hr class="home-hr" />
           </p>
-          I specialize in Javascript, React, and Node/Express.
-          <p></p>
+          <p>I specialize in Javascript, React, and Node/Express.</p>
+          <hr class="home-hr" />
+          <p>
+            I am currently a Computer Science student at{" "}
+            <a
+              className="lambda"
+              target="_blank"
+              href="https://lambdaschool.com/courses/full-stack-web-development"
+            >
+              Lambda School
+            </a>
+          </p>
         </div>
       </div>
       <div className="sections one">
