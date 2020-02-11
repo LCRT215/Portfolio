@@ -47,7 +47,7 @@ function Projects() {
 
       <div className="portfolio-info-container">
         <p className="portfolio-info-text">
-          ✨ This portfolio was create using React ✨
+          ✨ This portfolio was created using React ✨
         </p>
       </div>
     </div>

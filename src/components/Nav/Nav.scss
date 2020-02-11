@@ -70,19 +70,25 @@
 }
 
 .name {
-  font-size: 30px;
+  font-size: 2em;
   font-weight: 400;
   margin-top: 3px;
   -ms-flex-line-pack: start;
   align-content: flex-start;
   font-family: "Special Elite", cursive;
-  // width: 300px;
   font-weight: bolder;
-  color: #6b5a5f;
   width: 40%;
-  /* margin-bottom: 200px; */
+  list-style: none;
 }
+.name-text{
+  text-decoration: none;
+  color: #6b5a5f;
 
+}
+.name-text:hover {
+  color: #f4acbf;
+  text-decoration: none;
+}
 .l:hover {
   color: #f4acbf;
 }

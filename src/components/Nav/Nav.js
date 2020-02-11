@@ -5,14 +5,16 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <div class="nav-container">
-      <div class="name">Leslie Thompson</div>
+      <div class="name">
+        <Link  class="name-text" to="/">Leslie Thompson</Link>
+      </div>
 
       <ul class="nav-bar">
-        <li>
+        {/* <li>
           <Link class="l nav-link" to="/">
             about
           </Link>
-        </li>
+        </li> */}
         <li class="nav-two">
           <Link class="l nav-link" to="/work">
             projects
