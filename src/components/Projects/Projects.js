@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Projects.css";
 import data from "./projectData";
 import ProjectCard from "./ProjectCard";
-// import img from "./ProjectImages/replate.png"
 
 //////Projects to add:
 // Droom (Front-end|React)
@@ -25,7 +24,7 @@ function Projects() {
       <div className="header-container">
         <h1 className="header">
           <span className="headerAccent">{"{ "}</span>
-          <a>projects</a>
+          <p>projects</p>
           <span className="headerAccent">{" }"}</span>
         </h1>
       </div>
@@ -47,7 +46,7 @@ function Projects() {
 
       <div className="portfolio-info-container">
         <p className="portfolio-info-text">
-          ✨ This portfolio was created using React ✨
+         <span></span> ✨ This portfolio was created using React ✨
         </p>
       </div>
     </div>

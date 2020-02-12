@@ -10,11 +10,7 @@ function NavBar() {
       </div>
 
       <ul class="nav-bar">
-        {/* <li>
-          <Link class="l nav-link" to="/">
-            about
-          </Link>
-        </li> */}
+      
         <li class="nav-two">
           <Link class="l nav-link" to="/work">
             projects
@@ -30,6 +26,7 @@ function NavBar() {
             class="l nav-link"
             href="https://docs.google.com/document/d/e/2PACX-1vSS_4eFLR9K7xRQSsdoHauZ7YwXvuvPt6OsyXjMd2hSrVmAIHpc3iHoC0oFoE3SjKnIvlq4_YS5S6rL/pub"
             target="_blank"
+            rel="noopener noreferrer"
           >
             resume
           </a>

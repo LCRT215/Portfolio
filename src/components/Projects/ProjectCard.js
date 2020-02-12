@@ -14,7 +14,7 @@ function ProjectCard2(props) {
     <div className="cardContainer">
       <div className="textContainer">
         <h3 className={`title ${props.titleFont}`}> {props.title} </h3>
-        <a href={props.link} target="_blank">
+        <a href={props.link} target="_blank" rel="noopener noreferrer">
           {projectImage}
         </a>
         <p className="description">{props.description} </p>
@@ -24,13 +24,13 @@ function ProjectCard2(props) {
         </div>
       </div>
       <div className="buttons try">
-        <a href={props.link} target="_blank">
+        <a href={props.link} target="_blank" rel="noopener noreferrer">
           <button className="button button--secondary">
             <span class="button__inner">See project</span>
           </button>
         </a>
 
-        <a href={props.github} target="_blank">
+        <a href={props.github} target="_blank" rel="noopener noreferrer">
           <button className="button button--secondary">
             <span class="button__inner">See GitHub</span>
           </button>
