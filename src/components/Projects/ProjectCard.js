@@ -2,12 +2,16 @@ import React from "react";
 import "./Projects.scss";
 import replate from "../Projects/ProjectImages/replate.gif";
 import firefly from "../Projects/ProjectImages/firefly.gif";
+import bestBud from "../Projects/ProjectImages/bestBud.gif";
+
 function ProjectCard2(props) {
   let projectImage;
   if (props.titleFont === "replate") {
     projectImage = <img className="projectImage" src={replate} alt="Logo" />;
   } else if (props.titleFont === "firefly") {
     projectImage = <img className="projectImage" src={firefly} alt="Logo" />;
+  } else if (props.titleFont === "bestBud") {
+    projectImage = <img className="projectImage" src={bestBud} alt="Logo" />;
   }
 
   return (
