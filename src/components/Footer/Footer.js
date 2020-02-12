@@ -1,5 +1,4 @@
 import React from "react";
-import Nav from "react-bootstrap/Nav";
 import "../Footer/Footer.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
@@ -8,14 +7,20 @@ function Footer() {
     <div className="footer">
       <div>
         <a
+          className="icon"
           href="https://www.linkedin.com/in/leslie-thompson-"
           target="_blank"
-          className="icon"
+          rel="noopener noreferrer"
         >
           <FaLinkedin />
         </a>
 
-        <a href="https://github.com/LCRT215" target="_blank" className="icon">
+        <a
+          className="icon"
+          href="https://github.com/LCRT215"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaGithub />
         </a>
       </div>

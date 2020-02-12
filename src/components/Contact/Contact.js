@@ -22,6 +22,7 @@ function Contact() {
           width="200"
           height="200"
           src={require("../images/crossed.png")}
+          alt="happy emoji with fingers crossed"
         />
         <p>
           Feel free to reach out if you have any questions, would like to chat
@@ -31,15 +32,16 @@ function Contact() {
             lcrthompson@gmail.com
           </a>
           , or{" "}
-          <a onClick={() => setPop(!pop)}>
+          <span onClick={() => setPop(!pop)}>
             <nobr className="link">schedule a call with me</nobr>.
-          </a>
+          </span>
         </p>
 
         <a
           href="https://www.linkedin.com/in/leslie-thompson-"
           target="_blank"
           className="contactIcon linkedin"
+          rel="noopener noreferrer"
         >
           {" "}
           <FaLinkedin />
@@ -49,6 +51,7 @@ function Contact() {
           href="https://github.com/LCRT215"
           target="_blank"
           className="contactIcon github"
+          rel="noopener noreferrer"
         >
           <FaGithub />
         </a>

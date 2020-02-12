@@ -1,6 +1,5 @@
 import React from "react";
 import "../Home/Home.css";
-import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -11,6 +10,7 @@ function Home() {
           width="200"
           height="200"
           src={require("../images/open-smile.png")}
+          alt=" happy emoji"
         />
 
         <div className="greeting-container">
@@ -30,6 +30,7 @@ function Home() {
             <a
               className="lambda"
               target="_blank"
+              rel="noopener noreferrer"
               href="https://lambdaschool.com/courses/full-stack-web-development"
             >
               Lambda School
