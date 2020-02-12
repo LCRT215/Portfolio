@@ -10,10 +10,10 @@
   height: 100%;
   width: 25%;
   margin: 0 auto;
-  padding-bottom: 2%;
+  padding-bottom: 6%;
 }
 
-.header {
+.project-header {
   margin-bottom: 2%;
   font-size: 4vw;
   font-family: "Special Elite", cursive;
@@ -67,6 +67,7 @@
 .projectImage {
   width: 95%;
   margin: 3% 0;
+  cursor: pointer;
 }
 
 .title {
@@ -226,7 +227,7 @@
     text-align: center;
   }
 
-  .header {
+  .project-header {
     padding-bottom: 2%;
     font-size: 55px;
     border-right: none; /* The typwriter cursor */
@@ -248,5 +249,16 @@
   }
   .cardContainer {
     opacity: 1;
+  }
+}
+@media screen and (max-width: 427px) {
+  .portfolio-info-text {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .portfolio-info-text {
+    font-size: 0.9em;
   }
 }

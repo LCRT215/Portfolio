@@ -22,9 +22,9 @@ function Projects() {
   return (
     <div className="projects-container">
       <div className="header-container">
-        <h1 className="header">
+        <h1 className="project-header">
           <span className="headerAccent">{"{ "}</span>
-          <p>projects</p>
+          projects
           <span className="headerAccent">{" }"}</span>
         </h1>
       </div>
@@ -45,9 +45,9 @@ function Projects() {
       ))}
 
       <div className="portfolio-info-container">
-        <p className="portfolio-info-text">
-         <span></span> ✨ This portfolio was created using React ✨
-        </p>
+        <span className="portfolio-info-text">
+          ✨ This portfolio was created using React ✨
+        </span>
       </div>
     </div>
   );
