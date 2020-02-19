@@ -5,13 +5,13 @@ import ProjectCard from "./ProjectCard";
 
 //////Projects to add:
 // Droom (Front-end|React)
-// Bookr or Split the Bill?? (Project Lead)
 // Redux Smurfs (add new repo/project)
 // Lambda Times (sprint)
 // Testing (sprint)
 //Check and see which other sprints can be used (use codesandbox to see)
 
 //////Projects to make:
+// add role to projects
 // Daily motivation app (maybe make the api as well so I can add my own quotes)
 // Add a todo to motivation app
 // Wifi locater (if I can find a wifi api)
