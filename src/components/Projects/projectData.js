@@ -21,18 +21,9 @@ export default [
     github: "https://github.com/replate-phil/UI-Build-Week-1",
     img: "replate.jpg"
   },
-  // {
-  //   id: 2,
-  //   title: "Love, Leslie",
-  //   titleFont: "loveLeslie",
-  //   description:
-  //     "Love, Leslie is a mobile-ready responsive web application created to provide users with a boost of joy throughout the day. This random motivational quote generator accesses a custom made API filled with my favorite motivational quotes and allows authenticated users to add their own. (In progress)",
-  //   tech: "React | CSS | Node | PostgreSQL",
-  //   link: "https://loveleslie.netlify.com",
-  //   github: "https://github.com/LCRT215/Project-Motivation"
-  // },
+
   {
-    id: 3,
+    id: 2,
     title: "A to Z",
     titleFont: "aToZ",
     description:
@@ -43,7 +34,7 @@ export default [
     // link:"https://atoz-experiences.netlify.com/"
   },
   {
-    id: 4,
+    id: 3,
     title: "bestBud",
     titleFont: "bestBud",
     description:
@@ -59,5 +50,15 @@ export default [
     tech: "HTML |React | CSS | Node | PostgreSQL | Data Science",
     link: "https://bestbudhome.netlify.com/",
     github: "https://github.com/Med-Cabinet-BW"
+  },
+  {
+    id: 4,
+    title: "Love, Leslie",
+    titleFont: "loveLeslie",
+    description:
+      "Love, Leslie is a mobile-ready responsive web application created to provide users with a boost of joy throughout the day. This random motivational quote generator accesses a custom made API filled with my favorite motivational quotes and allows authenticated users to add their own. (In progress)",
+    tech: "React | CSS | Node | PostgreSQL",
+    //   link: "https://loveleslie.netlify.com",
+    github: "https://github.com/LCRT215/Project-Motivation"
   }
 ];
