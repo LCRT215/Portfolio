@@ -29,7 +29,7 @@ function Projects() {
         </h1>
       </div>
 
-      {data.map(project => (
+      {data.map((project) => (
         <ProjectCard
           key={project.id}
           width="100%"
@@ -45,9 +45,7 @@ function Projects() {
       ))}
 
       <div className="portfolio-info-container">
-        <span className="portfolio-info-text">
-          ✨ This portfolio was created using React ✨
-        </span>
+        <span className="portfolio-info-text">✨ Created using React ✨</span>
       </div>
     </div>
   );
