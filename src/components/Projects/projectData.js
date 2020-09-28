@@ -7,7 +7,7 @@ export default [
       "Firefly is a proof-of-concept application designed for how 4-6 year-old children learn - through play and experience. I functioned as a Full-Stack Developer on cross-functional team of 8 Web Developers and 2 UX Designers.We created an innovative, open-ended coding environment that encourages experimentation by using React and animated SVGs to build an intuitive learning experience, which allows children to figure things out without feeling stuck. Firefly more accurately teaches what it means to be an engineer, with responsive interactions using drag and drop blocks that can be combined to code their own customizable fireflies. This application was created to be used on a tablet.",
     tech: "React | Context | React DnD | Firebase & Firestore ",
     github: "https://github.com/projectfirefly",
-    link: "https://projectfirefly.netlify.com/"
+    link: "https://projectfirefly.netlify.com/",
   },
   {
     id: 1,
@@ -19,7 +19,7 @@ export default [
     // image: `<img src=${replate} alt='project replate image' />`,
     link: "https://project-replate.netlify.com/",
     github: "https://github.com/replate-phil/UI-Build-Week-1",
-    img: "replate.jpg"
+    img: "replate.jpg",
   },
 
   {
@@ -30,7 +30,7 @@ export default [
       "A to Z was a project I developed the back-end for with with a team of front-end developers. Pitch: Many stay home parents report feeling 'stir crazy' and their social needs are not met. Enter A to Z experiences (Think AirBNB experiences...but for stay at home parents) . Parents can host an experience, join new experiences, and earn money leading people on activities they love.",
     tech: "React | Node.js | Sqlite3 | Express | Jest",
     github: "https://github.com/a-to-z-experiences/AtoZ_backend",
-    link: "https://atoz-backend.herokuapp.com/"
+    link: "https://atoz-backend.herokuapp.com/",
     // link:"https://atoz-experiences.netlify.com/"
   },
   {
@@ -49,7 +49,7 @@ export default [
     // - Clearly measure individual performance and contributions towards the success of the project and ensure a rewarding system that is set to felicitate the achievers.
     tech: "HTML |React | CSS | Node | PostgreSQL | Data Science",
     link: "https://bestbudhome.netlify.com/",
-    github: "https://github.com/Med-Cabinet-BW"
+    github: "https://github.com/Med-Cabinet-BW",
   },
   {
     id: 4,
@@ -59,6 +59,14 @@ export default [
       "Love, Leslie is a mobile-ready responsive web application created to provide users with a boost of joy throughout the day. This random motivational quote generator accesses a custom made API filled with my favorite motivational quotes and allows authenticated users to add their own. (In progress)",
     tech: "React | CSS | Node | PostgreSQL",
     //   link: "https://loveleslie.netlify.com",
-    github: "https://github.com/LCRT215/Project-Motivation"
-  }
+    github: "https://github.com/LCRT215/Project-Motivation",
+  },
+  {
+    id: 5,
+    title: "Leslie's Game of Life",
+    description: "Conway's Game of Life was created in 1970 by the British mathmetician, John Horton Conway. The player interacts with the game by creating an initial layout, and when executed, the game is capable of infinitely evolving. It is a turing complete algorithm that simulates cellular automata.",
+    tech: "React",
+    link: "https://leslies-game-of-life.vercel.app/",
+    github: "https://github.com/LCRT215/leslies-game-of-life",
+  },
 ];
