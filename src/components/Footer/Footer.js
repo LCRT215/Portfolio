@@ -1,6 +1,7 @@
 import React from "react";
 import "../Footer/Footer.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import Copyright from "../Copyright";
 
 function Footer() {
   return (
@@ -24,7 +25,8 @@ function Footer() {
           <FaGithub />
         </a>
       </div>
-      <div className="copy">Created and designed by Leslie Thompson © 2019</div>
+      {/* <div className="copy">Created and designed by Leslie Thompson © 2019</div> */}
+      <Copyright  />
     </div>
   );
 }
